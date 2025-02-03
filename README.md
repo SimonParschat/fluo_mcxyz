@@ -26,9 +26,9 @@ $$\int_{-1}^1 p(\cos(\theta))\cos(\theta)d(\cos(\theta)) = g.$$
 
     Calculating cos(theta) from,
 
-$$ t = \frac{1.0 - g*g}{1.0 - g + 2*g*rnd}$$
+$$ t = \frac{1.0-g \cdot g}{1.0 - g + 2\cdot g \cdot rnd}$$
 
-$$\cos(\theta) = \frac{1.0 + g*g - t*t}{2.0*g}$$
+$$\cos(\theta) = \frac{1.0 + g \cdot g - t \cdot t}{2.0\cdot g}$$
 
     Psi is randomly chosen from [0,2pi].
     Trajectories are updated by these theta and psi angles.
